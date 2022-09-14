@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Qwitcher+Grypen:wght@700&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+
+:root {
+    --color1: 0, 0, 0;
+    --color2: 61, 0, 0;
+    --color3: 149, 1, 1;
+    --color4: 255, 0, 0;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*For the navigation bar*/
+header nav{
+    background-color: rgb(var(--color3));
+    width: 100%;
+    top: 0;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.glow{
+    background-color: rgb(var(--color4));
+}
+
+nav ul li a:hover {
+    background-color: rgb(var(--color4));
+}
+
+/*For the main section*/
+#main {
+    background-image: url(images/worlds.jpg);
+    height: 90.7vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(var(--color1), 0.5);
+    background-blend-mode: multiply;
+}
+
+#main h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#main img {
+    height: 360px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    float: left;
+    margin-right: 60px;
+}
+
+#main-text{
+    color: white;
+    background-color: rgba(var(--color3), 0.5);
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-text p {
+    font-size: 28px;
+    line-height: 45px;
+}
